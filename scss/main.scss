@@ -1,6 +1,9 @@
-$deep-grey: #282c34;
-$white-text:  rgba(255, 255, 255, .98);
+$white: rgba(255, 255, 255, .98);
+$deepgrey-text:  #282c34;
+$font-stack: Raleway sans-serif;
 
 body {
-  background-color: $deep-grey;
+  background-color: $white;
+  color: $deepgrey-text;
+  font: 100% $font-stack;
 }
